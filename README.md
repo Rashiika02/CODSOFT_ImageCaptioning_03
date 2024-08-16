@@ -27,3 +27,12 @@ Image Captioning with PyTorch
 <br>Feature Extraction: The extract_features function uses ResNet to extract image features.
 <br>Caption Generation: The generate_caption function (currently a placeholder) should be replaced with actual code to generate captions from the trained model.
 <br>CaptioningModel Class: Defines the LSTM-based architecture for generating captions.
+
+<br>Training and Fine-Tuning
+<br>This repository includes the basic setup for caption generation but does not cover the training process of the CaptioningModel. For a complete implementation, you will need:
+
+<br>Dataset: Collect a dataset of images and corresponding captions.
+<br>Preprocessing: Tokenize and preprocess captions, and prepare image features.
+<br>Training Loop: Implement a training loop to train the LSTM model on the image-caption pairs.
+<br>Evaluation: Evaluate the model using metrics like BLEU, METEOR, or CIDEr.
+
